@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "region": "us-west-2",
+    "location": "US West (Oregon)",
+    "fetched_at": "2026-03-19T15:51:33Z",
+    "ttl_hours": 24
+  },
+  "api_pricing": {
+    "amazon.nova-lite-v2": {
+      "input": 0.00033,
+      "output": 0.00275,
+      "cache_read": 8.25e-05,
+      "cache_write": 0.0
+    },
+    "amazon.nova-micro": {
+      "input": 3.5e-05,
+      "output": 0.00014,
+      "cache_read": 8.75e-06,
+      "cache_write": 0.0
+    },
+    "amazon.nova-premier": {
+      "input": 0.0025,
+      "output": 0.0125,
+      "cache_read": 0.000625,
+      "cache_write": 0.0
+    },
+    "amazon.nova-lite": {
+      "input": 6e-05,
+      "output": 0.00024,
+      "cache_read": 1.5e-05,
+      "cache_write": 0.0
+    },
+    "amazon.nova-pro": {
+      "input": 0.0008,
+      "output": 0.0032,
+      "cache_read": 0.0002,
+      "cache_write": 0.0
+    },
+    "deepseek.r1": {
+      "input": 0.00135,
+      "output": 0.0054,
+      "cache_read": 0.0,
+      "cache_write": 0.0
+    }
+  },
+  "fallback_pricing": {
+    "global.anthropic.claude-opus-4-6": {
+      "input": 0.005,
+      "output": 0.025,
+      "cache_read": 0.0005,
+      "cache_write": 0.00625
+    },
+    "global.anthropic.claude-sonnet-4-6": {
+      "input": 0.003,
+      "output": 0.015,
+      "cache_read": 0.0003,
+      "cache_write": 0.00375
+    },
+    "anthropic.claude-opus-4-6": {
+      "input": 0.0055,
+      "output": 0.0275,
+      "cache_read": 0.00055,
+      "cache_write": 0.006875
+    },
+    "anthropic.claude-sonnet-4-6": {
+      "input": 0.0033,
+      "output": 0.0165,
+      "cache_read": 0.00033,
+      "cache_write": 0.004125
+    },
+    "anthropic.claude-opus-4": {
+      "input": 0.015,
+      "output": 0.075,
+      "cache_read": 0.0015,
+      "cache_write": 0.01875
+    },
+    "anthropic.claude-sonnet-4-5": {
+      "input": 0.003,
+      "output": 0.015,
+      "cache_read": 0.0003,
+      "cache_write": 0.00375
+    },
+    "anthropic.claude-sonnet-4": {
+      "input": 0.003,
+      "output": 0.015,
+      "cache_read": 0.0003,
+      "cache_write": 0.00375
+    },
+    "anthropic.claude-haiku-4-5": {
+      "input": 0.0008,
+      "output": 0.004,
+      "cache_read": 8e-05,
+      "cache_write": 0.001
+    },
+    "anthropic.claude-3-haiku": {
+      "input": 0.00025,
+      "output": 0.00125,
+      "cache_read": 0.0,
+      "cache_write": 0.0
+    },
+    "amazon.nova-pro": {
+      "input": 0.0008,
+      "output": 0.0032,
+      "cache_read": 0.0002,
+      "cache_write": 0.0
+    },
+    "amazon.nova-lite": {
+      "input": 6e-05,
+      "output": 0.00024,
+      "cache_read": 1.5e-05,
+      "cache_write": 0.0
+    },
+    "amazon.nova-micro": {
+      "input": 3.5e-05,
+      "output": 0.00014,
+      "cache_read": 8.75e-06,
+      "cache_write": 0.0
+    },
+    "deepseek.r1": {
+      "input": 0.00135,
+      "output": 0.0054,
+      "cache_read": 0.0,
+      "cache_write": 0.0
+    }
+  }
+}
